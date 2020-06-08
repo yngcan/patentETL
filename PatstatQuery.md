@@ -32,7 +32,7 @@
 举例：tls211_pat_publn表中的主键与替代键
 
 ![tls211_pat_publn_key](
-/Users/yangguancan/Files/Python/PatentDatabase/queryimages/key.png)
+https://github.com/yngcan/patentETL/blob/master/queryimages/key.png)
 
 ## 2.3基础检索式
 
@@ -147,18 +147,18 @@ WHERE
 
   + 在PATSTAT中，专利数据由于避免冗余和存储高效被拆分为了多张表，因此，当要真正分析问题时，还需要对多表进行连接。
   
-  + PATSTAT中多表之间的关系可以参见![逻辑模型图](/Users/yangguancan/Files/Python/PatentDatabase/queryimages/logical_model.png?_xsrf=2%7C7759b8de%7C7d3bbb4c4ec2f99c5359ef87fe1c859c%7C1590139598)
+  + PATSTAT中多表之间的关系可以参见![逻辑模型图](https://github.com/yngcan/patentETL/blob/master/queryimages/logical_model.png)
   
   + 例如，分析不同的主题需要不同组合不同的表
   
   + 分析标题 - Person表的组合
   
     - PERSON表的逻辑
-    ![PATSTAT——PERSON表的逻辑关系](/Users/yangguancan/Files/Python/PatentDatabase/queryimages/person.png)
+    ![PATSTAT——PERSON表的逻辑关系](https://github.com/yngcan/patentETL/blob/master/queryimages/person.png)
     - 发明人、申请人合并到一张表
     
     - PERSON表的检索
-    ![PATSTAT——PERSON表的检索](/Users/yangguancan/Files/Python/PatentDatabase/queryimages/person_table.png)
+    ![PATSTAT——PERSON表的检索](https://github.com/yngcan/patentETL/blob/master/queryimages/person_table.png)
     
     -  如果你想通过关系数据库来了解真实的人的关系，你至少需要三张表：
        - 申请表 (tls201_appln)
@@ -280,7 +280,7 @@ ORDER BY citn_origin
 ```
    - 专利引文关系图，根据关系来判断其引用类型。
 
-   ![引文关系图](/Users/yangguancan/Files/Python/PatentDatabase/queryimages/citation.png)
+   ![引文关系图](https://github.com/yngcan/patentETL/blob/master/queryimages/citation.png)
 
 
 # 3 检索式指导
